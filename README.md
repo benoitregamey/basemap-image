@@ -18,7 +18,7 @@ Run the app with the given python virtual environment (./env/bin/python3.9). It 
 
 ##### Options
 ```sh
-perimeter=west,north,east,south   # Give the 4 coordinates of the AOI you want
+perimeter=west,north,east,south   # Give the 4 coordinates of the AOI you want in EPSG:3857 (web-mercator, google maps)
 ```
 ```sh
 zoomlevel=14   # Give the zoom level as an integer between 0 and 20
