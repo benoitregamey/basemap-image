@@ -1,6 +1,5 @@
 import requests
 from PIL import Image
-import os
 import math
 from pyproj import Transformer
 import os
@@ -177,4 +176,5 @@ def main(*args):
 
 if __name__ == "__main__":
     main(*sys.argv[1:])
+        
         
